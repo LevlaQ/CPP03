@@ -6,7 +6,7 @@
 /*   By: gyildiz <gyildiz@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/01 17:15:25 by gyildiz           #+#    #+#             */
-/*   Updated: 2025/10/01 18:46:38 by gyildiz          ###   ########.fr       */
+/*   Updated: 2025/10/04 15:59:49 by gyildiz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,10 +77,7 @@ void ClapTrap::beRepaired(unsigned int amount)
 		std::cout << "ClapTrap " << this->name << " repairs itself" << std::endl;
 	else
 		std::cout << "I'm too tired to do anything!" << std::endl;
-	if ((this->hit_points + amount) > 10)
-		this->hit_points = 10;
-	else
-		this->hit_points += amount;
+	this->hit_points += amount;
 	if (this->energy_points > 0)
 		this->energy_points -= 1;
 	std::cout << "--ClapTrap " << this->name << " has now " << this->hit_points << " hit points" << std::endl;
