@@ -6,13 +6,13 @@
 #    By: gyildiz <gyildiz@student.42istanbul.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/09/29 13:28:44 by gyildiz           #+#    #+#              #
-#    Updated: 2025/09/29 13:29:07 by gyildiz          ###   ########.fr        #
+#    Updated: 2025/10/04 18:57:47 by gyildiz          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRCS = main.cpp ClapTrap.cpp ScavTrap.cpp FragTrap.cpp
+SRCS = main.cpp ClapTrap.cpp ScavTrap.cpp FragTrap.cpp DiamondTrap.cpp
 OBJS = $(SRCS:.cpp=.o)
-EXE_NAME = frag
+EXE_NAME = diamond
 CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 
