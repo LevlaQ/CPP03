@@ -6,7 +6,7 @@
 /*   By: gyildiz <gyildiz@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/04 16:18:48 by gyildiz           #+#    #+#             */
-/*   Updated: 2025/10/04 19:18:02 by gyildiz          ###   ########.fr       */
+/*   Updated: 2025/10/05 14:01:35 by gyildiz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,5 +18,6 @@ int	main(void)
 
 	a.whoAmI();
 	a.beRepaired(5);
+	a.takeDamage(67);
 	a.attack("Azula");
 }
