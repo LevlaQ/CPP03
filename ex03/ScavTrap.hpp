@@ -6,11 +6,13 @@
 /*   By: gyildiz <gyildiz@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/04 16:03:22 by gyildiz           #+#    #+#             */
-/*   Updated: 2025/10/04 19:04:03 by gyildiz          ###   ########.fr       */
+/*   Updated: 2025/10/05 13:50:28 by gyildiz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ClapTrap.hpp"
+#ifndef SCAVTRAP_HPP
+# define SCAVTRAP_HPP
+# include "ClapTrap.hpp"
 
 class ScavTrap : virtual public ClapTrap
 {
@@ -25,3 +27,5 @@ class ScavTrap : virtual public ClapTrap
 		void	attack(const std::string& target);
 		void	guardGate();
 };
+
+#endif

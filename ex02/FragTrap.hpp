@@ -1,16 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   fragTrap.hpp                                       :+:      :+:    :+:   */
+/*   FragTrap.hpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: gyildiz <gyildiz@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/04 16:04:30 by gyildiz           #+#    #+#             */
-/*   Updated: 2025/10/04 16:22:58 by gyildiz          ###   ########.fr       */
+/*   Updated: 2025/10/05 13:52:30 by gyildiz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ClapTrap.hpp"
+#ifndef FRAGTRAP_HPP
+# define FRAGTRAP_HPP
+# include "ClapTrap.hpp"
 
 class FragTrap: public ClapTrap
 {
@@ -25,3 +27,5 @@ class FragTrap: public ClapTrap
 		
 		void highFivesGuys(void);
 };
+
+#endif
